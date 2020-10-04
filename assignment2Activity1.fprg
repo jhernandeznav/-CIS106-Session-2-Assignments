@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="cupca"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-03 02:16:12 PM"/>
+        <attribute name="created" value="Y3VwY2E7REVTS1RPUC01QzA1TE05OzIwMjAtMTAtMDM7MDE6MjY6NTQgUE07MjgwOA=="/>
+        <attribute name="edited" value="Y3VwY2E7REVTS1RPUC01QzA1TE05OzIwMjAtMTAtMDM7MDI6MTY6MTIgUE07MTsyOTEw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numgallons" type="Real" array="False" size=""/>
+            <declare name="liters" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter the number of gallons: &quot;" newline="True"/>
+            <input variable="numgallons"/>
+            <assign variable="liters" expression="numgallons * 3.7854"/>
+            <output expression="&quot;liters: &quot; &amp;liters" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

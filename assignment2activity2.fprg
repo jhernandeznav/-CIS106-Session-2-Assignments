@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="cupca"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-03 02:44:33 PM"/>
+        <attribute name="created" value="Y3VwY2E7REVTS1RPUC01QzA1TE05OzIwMjAtMTAtMDM7MDI6MTc6MzYgUE07MjgwOQ=="/>
+        <attribute name="edited" value="Y3VwY2E7REVTS1RPUC01QzA1TE05OzIwMjAtMTAtMDM7MDI6NDQ6MzMgUE07MjsyOTE1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numpennies" type="Real" array="False" size=""/>
+            <declare name="numnickles" type="Real" array="False" size=""/>
+            <declare name="numdimes" type="Real" array="False" size=""/>
+            <declare name="numquarters" type="Real" array="False" size=""/>
+            <declare name="resultspennies" type="Real" array="False" size=""/>
+            <declare name="resultsnickles" type="Real" array="False" size=""/>
+            <declare name="resultsdimes" type="Real" array="False" size=""/>
+            <declare name="resultsquarters" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter the amount of pennies: &quot;" newline="True"/>
+            <input variable="numpennies"/>
+            <output expression="&quot;Enter the amount of nickles: &quot;" newline="True"/>
+            <input variable="numnickles"/>
+            <output expression="&quot;Enter the amount of dimes: &quot;" newline="True"/>
+            <input variable="numdimes"/>
+            <output expression="&quot;Enter the amount of quarters: &quot;" newline="True"/>
+            <input variable="numquarters"/>
+            <assign variable="resultspennies" expression="numpennies * .01"/>
+            <assign variable="resultsnickles" expression="numnickles * .05"/>
+            <assign variable="resultsdimes" expression="numdimes * .10"/>
+            <assign variable="resultsquarters" expression="numquarters * .25"/>
+            <output expression="&quot;Number of pennies:$&quot;&amp;resultspennies" newline="True"/>
+            <output expression="&quot;Number of nickles:$&quot;&amp;resultsnickles" newline="True"/>
+            <output expression="&quot;Number of dimes:$&quot;&amp;resultsdimes" newline="True"/>
+            <output expression="&quot;Number of quarters:$&quot;&amp;resultsquarters" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
