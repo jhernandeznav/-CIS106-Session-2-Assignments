@@ -1,0 +1,4 @@
+﻿Get the dog name, Name
+Get the dogs human years, human_years
+dog_years = 7 x human_years
+Output Name “is” dog_years “in dog years”

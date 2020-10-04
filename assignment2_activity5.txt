@@ -1,0 +1,9 @@
+﻿Get the hours worked per week
+Get the rate per hour, rt
+Declare month, mth
+Declare year, yr
+Mth = 4.35
+Yr = 52
+Output “weekly earnings: $”, hrs x rt
+Output “monthly earnings: $”,  hrs x rt x mth
+Output “yearly earnings: $”, hrs x rt x yr
