@@ -8,4 +8,4 @@ ngal = totalarea / sqftpergal + .9999
 Output “Total number of gallons”, ngal
 Get the price of the paint gallons, prgal
 cost = ngal x prgal 
-Output “total cost of the pain”, cost
+Output “total cost of the paint”, cost
